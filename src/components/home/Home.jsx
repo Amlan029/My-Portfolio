@@ -22,13 +22,17 @@ const Home = () => {
           className="text-2xl md:text-4xl font-thin flex leading-normal tracking-tighter text-zinc-400"
         />
         <p className="text-sm md:text-2xl tracking-tight">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
-          minus distinctio, nostrum tempora ratione iste velit est facere
-          temporibus consequuntur.
+          Hey there! I’m a Full Stack Developer who loves building cool apps with the MERN stack. I enjoy turning ideas into real, usable web experiences that make life easier..
         </p>
-        <button className="mt-5 md:md-10 text-white py-2 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697] cursor-pointer">
-          Contact Me
-        </button>
+        <div className="flex gap-2">
+          <a href="#Contact"><button className="mt-5 md:md-10 text-white py-2 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697] cursor-pointer">
+            Contact Me
+          </button></a>
+
+          <a href="https://drive.google.com/file/d/1-uZO1atTiUclD7NUsk6DXaN_12-ehO_j/view?usp=sharing"><button className="mt-5 md:md-10 text-white py-2 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697] cursor-pointer">
+            Download Resume
+          </button></a>
+          </div>
       </div>
       <div>
         <img className="rounded-full w-4/5" src={avatarImg} alt="" />

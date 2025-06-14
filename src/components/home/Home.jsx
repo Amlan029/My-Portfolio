@@ -1,7 +1,7 @@
 import React from "react";
 // import { useState, useEffect } from 'react';
 import { TypeAnimation } from "react-type-animation";
-import avatarImg from "../../assets/myAvatar 2.jpg";
+import avatarImg from "/myAvatar 2.jpg";
 const Home = () => {
   return (
     <div className="text-white flex w-full justify-between items-start p-10 md:p-20">
@@ -24,7 +24,7 @@ const Home = () => {
         <p className="text-sm md:text-2xl tracking-tight">
           Hey there! I’m a Full Stack Developer who loves building cool apps with the MERN stack. I enjoy turning ideas into real, usable web experiences that make life easier..
         </p>
-        <div className="flex gap-2">
+        <div className="flex flex-wrap gap-2">
           <a href="#Contact"><button className="mt-5 md:md-10 text-white py-2 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697] cursor-pointer">
             Contact Me
           </button></a>

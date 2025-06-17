@@ -5,16 +5,31 @@ import { MdOutlineEmail } from 'react-icons/md'
 
 const Footer = () => {
   return (
-    <div id='Contact' className='flex justify-around bg-[#465697] text-white p-10 md:p-5 items-center'>
+    <div id='Contact' className='bg-[#465697] text-white p-6 md:p-10'>
+      <div className='flex flex-col md:flex-row justify-between items-start md:items-center gap-6'>
+        
+        
         <div>
-            <h1 className='text-2xl md:text-6xl font-bold '>Contact</h1>
-            <h3 className='text-sm md:text-2xl font-normal'>Feel Free to reach out</h3>
+          <h1 className='text-2xl md:text-4xl font-bold'>Contact</h1>
+          <h3 className='text-sm md:text-lg font-normal'>Feel free to reach out</h3>
         </div>
-        <ul className='text-sm md:text-xl text-zinc-900'>
-            <li className='flex gap-2 items-center'><MdOutlineEmail size={20}/>amlangit111@gmail.com</li>
-            <li className='flex gap-2 items-center'><CiLinkedin size={20}/>https://www.linkedin.com/in/amlan-mukherjee-240063227/</li>
-            <li className='flex gap-2 items-center'><FaGithub size={20}/>Amlan029</li>
-        </ul>  
+
+        
+        <ul className='text-sm md:text-base space-y-3'>
+          <li className='flex items-center gap-2'>
+            <MdOutlineEmail size={20} color='#000000'/> 
+            <span>amlangit111@gmail.com</span>
+          </li>
+          <li className='flex items-center gap-2 break-all'>
+            <CiLinkedin size={20} color="#000000"/> 
+            <span>https://www.linkedin.com/in/amlan-mukherjee-240063227/</span>
+          </li>
+          <li className='flex items-center gap-2'>
+            <FaGithub size={20} color="#000000"/> 
+            <span>Amlan029</span>
+          </li>
+        </ul>
+      </div>
     </div>
   )
 }

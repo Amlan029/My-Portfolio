@@ -15,21 +15,21 @@ const About = () => {
                 autoplay
                 />
                 <ul>
-                    <div className='flex gap-3 py-4'>
-                        <IoArrowForward size={30} className='mt-1'/>
+                    <div className='flex gap-3 py-4 duration-300 hover:scale-105'>
+                        <IoArrowForward size={30} className='mt-1 '/>
                         <span className='w-96'>
                             <h1 className='text-xl md:text-2xl font-semibold  leading-normal'>Frontend Developer</h1>
                             <p className='text-sm md:text-md leading-tight'>Skilled in crafting responsive and dynamic user interfaces using React.js, Bootstrap, and Tailwind CSS. Experienced in building intuitive, mobile-first designs for apps like Task Manager and Wellness Hub. Passionate about clean code and seamless user experiences.</p>
                         </span>
                     </div>
-                    <div className='flex gap-3 py-4'>
+                    <div className='flex gap-3 py-4 duration-300 hover:scale-105'>
                         <IoArrowForward size={30} className='mt-1'/>
                         <span className='w-96'>
                             <h1 className='text-xl md:text-2xl font-semibold  leading-normal'>Backend Developer</h1>
                             <p className='text-sm md:text-md leading-tight'>Strong foundation in Node.js and Express.js for building scalable, RESTful APIs. Developed robust backend systems for full-stack apps with secure authentication and CRUD operations. Emphasizes performance and maintainability.</p>
                         </span>
                     </div>
-                    <div className='flex gap-3 py-4'>
+                    <div className='flex gap-3 py-4 duration-300 hover:scale-105'>
                         <IoArrowForward size={30} className='mt-1'/>
                         <span className='w-96'>
                             <h1 className='text-xl md:text-2xl font-semibold  leading-normal'>Database Developer</h1>

@@ -35,7 +35,7 @@ const Home = () => {
           </div>
       </div>
       <div>
-        <img className="rounded-full w-4/5 shadow-xl shadow-indigo-500/50  duration-300 hover:scale-105" src={avatarImg} alt="" />
+        <img className="rounded-full w-4/5 shadow-xl hover:shadow-indigo-500/50  duration-300 hover:scale-105" src={avatarImg} alt="" />
       </div>
     </div>
   );

@@ -15,10 +15,10 @@ const Navbar = () => {
         <ul className={`${
           menu ? "block" : "hidden"
         }      mx-24 py-2 mt-4 font-semibold md:mt-5 bg-black px-2 rounded-xl bg-opacity-30 md:border-none text-center md:bg-transparent md:static md:mx-0 md:flex gap-6 md:justify-center `}>
-            <a href='#About'><li className="text-md transition-all duration-300 p-1 md:p-0  hover:scale-140">About</li></a>
-            <a href='#Experience'><li className="text-md transition-all duration-300 p-1 md:p-0  hover:scale-140">Experience</li></a>
-            <a href='#Projects'><li className="text-md transition-all duration-300 p-1 md:p-0  hover:scale-140">Projects</li></a>
-            <a href='#Contact'><li className="text-md transition-all duration-300 p-1 md:p-0 hover:scale-140">Contact</li></a>
+            <a href='#About'><li className="text-md transition-all duration-300 p-1 md:p-0  hover:scale-140   no-underline hover:underline">About</li></a>
+            <a href='#Experience'><li className="text-md transition-all duration-300 p-1 md:p-0  hover:scale-140 no-underline hover:underline">Experience</li></a>
+            <a href='#Projects'><li className="text-md transition-all duration-300 p-1 md:p-0  hover:scale-140 no-underline hover:underline">Projects</li></a>
+            <a href='#Contact'><li className="text-md transition-all duration-300 p-1 md:p-0 hover:scale-140 no-underline hover:underline">Contact</li></a>
         </ul>
         {showMenu ? (
           <RiMenu2Line size={30} className='md:hidden absolute right-10 top-6 transition-all duration-300' onClick={toggleMenu}/>

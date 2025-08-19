@@ -29,7 +29,7 @@ const Home = () => {
             Contact Me
           </button></a>
 
-          <a href="https://drive.google.com/file/d/1-uZO1atTiUclD7NUsk6DXaN_12-ehO_j/view?usp=sharing"><button className="mt-5 md:md-10 text-white py-2 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 duration-300 shadow-xl hover:scale-105 hover:shadow-indigo-500/50 font-semibold rounded-3xl bg-[#465697] cursor-pointer">
+          <a href="https://drive.google.com/file/d/1T12EudcsNm-O46Z5kvRyJTZ0BBIOSqXe/view?usp=sharing"><button className="mt-5 md:md-10 text-white py-2 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 duration-300 shadow-xl hover:scale-105 hover:shadow-indigo-500/50 font-semibold rounded-3xl bg-[#465697] cursor-pointer">
             Download Resume
           </button></a>
           </div>

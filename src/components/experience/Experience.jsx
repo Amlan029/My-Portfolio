@@ -1,13 +1,15 @@
 import { RiNetflixFill } from '@remixicon/react';
 import React from 'react'
+import Marquee from "react-fast-marquee";
 import { FaHtml5, FaCss3, FaJs, FaNode, FaGithub, FaGitAlt, FaReact, FaGoogle } from 'react-icons/fa';
-import { SiMongodb, SiMysql, SiPostman, SiTailwindcss, SiBootstrap } from 'react-icons/si';
+import { SiMongodb, SiMysql, SiPostman, SiTailwindcss, SiBootstrap, SiNextdotjs } from 'react-icons/si';
 const Experience = () => {
   return (
     <div id='Experience' className='p-10 md:p-24'>
         <h1 className='text-2xl md:text-4xl text-white font-bold'>Experience</h1>
-        <div className='flex flex-wrap items-center justify-around'>
-            <div className='flex flex-wrap md:w-4/5 gap-8 md:p-12 py-10 justify-center'>
+        <div className='flex flex-wrap items-center justify-center'>
+            <Marquee pauseOnHover={true} gradient={false} speed={50}>
+            <div className='flex items-center md:w-4/5 gap-8 md:p-12 py-10 '>
                 <span className='p-3 bg-zinc-950 flex items-center rounded-2xl'>
                     <FaHtml5  color="#E34F26" size={50}/>
                 </span>
@@ -44,7 +46,11 @@ const Experience = () => {
                 <span className='p-3 bg-zinc-950 flex items-center rounded-2xl'>
                     <SiBootstrap  color="#9933ff" size={50}/>
                 </span>
+                <span className='p-3 bg-zinc-950 flex items-center rounded-2xl'>
+                    <SiNextdotjs  color="#FFFFFF" size={50}/>
+                </span>
             </div>
+            </Marquee>
             <div>
             {/* Experience section start here */}
             <div className='flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg p-4 items-center'>

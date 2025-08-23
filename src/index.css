@@ -1,4 +1,8 @@
 @import "tailwindcss";
+html{
+    scroll-behavior: smooth;
+}
+
 /* 
 @keyframes appear {
     0% {

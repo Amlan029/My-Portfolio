@@ -59,7 +59,7 @@ const Experience = () => {
                     <h2 className='loading-tight'>Full Stack Web Developer, Devtown</h2>
                     <p className='text-sm loading-tight font-thin'>Nov 2023 - Feb 2024</p>
                     <ul className='text-sm p-2'>
-                        <li>- Work as Web developer</li>
+                        <li>- Worked as Web developer</li>
                         {/* <li>Senior SDE developer</li> */}
                     </ul>
                 </span>

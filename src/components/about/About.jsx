@@ -10,7 +10,7 @@ const About = () => {
             <div className='md:flex flex-wrap flex-col md:flex-row items-center' >
                 <DotLottieReact
                 className='md:h-50'
-                src="https://lottie.host/3f829011-537b-4c68-bc57-7bc93a1404f4/RUKNI7bFNc.lottie"
+                src="https://lottie.host/7184ca0a-0c5b-460e-b481-69252c6f3cad/rQcGVynFBW.lottie"
                 loop
                 autoplay
                 />

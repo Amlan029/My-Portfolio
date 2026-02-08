@@ -4,12 +4,12 @@ import { TypeAnimation } from "react-type-animation";
 import avatarImg from "../../assets/myAvatar2.jpg";
 const Home = () => {
   return (
-    <div className="text-white flex flex-col md:flex-row w-full justify-between items-start p-10 md:p-20">
+    <div className="text-white flex flex-col md:flex-row w-full justify-between items-start  p-10 md:p-10">
       <div className="flex justify-center  mt-6 ">
         <img className="rounded-full w-3/5 shadow-xl hover:shadow-indigo-500/50  duration-300 hover:scale-105" src={avatarImg} alt="" />
       </div>
       <div className="md:w-2/4 md:pt-10 ">
-        <h1 className="text-3xl md:text-6xl font-bold flex leading-normal tracking-tighter">
+        <h1 className="text-3xl md:text-6xl md:text-center font-bold flex leading-normal tracking-tighter">
           Hello, I'm<span className="ml-2 bg-gradient-to-r from-pink-500 to-yellow-500 bg-clip-text text-transparent">Amlan</span>
         </h1>
         <TypeAnimation

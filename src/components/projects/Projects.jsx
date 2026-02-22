@@ -6,41 +6,51 @@ import DA from '../../assets/DocAppo.png'
 import FF from "../../assets/feedformly.png"
 import Con_Mor from "../../assets/Content_Morpher.png"
 const projects = [
-{
-  title: "Stone Paper Scissor Game",
-  description: "A simple and fun game built using HTML5, CSS3, and JavaScript where the player competes with the computer in a classic Stone Paper Scissor match.",
-  ImgSrc: stonePaperScissor,
-  codeLink: 'https://github.com/Amlan029/stonePaperScissors',
-  demoLink: 'https://amlan029.github.io/stonePaperScissors/' 
-},
-{
-  title: "Currency Mine",
-  description: "A front-end currency-converter app built with the React js. It allows users to get a particular currency value to another with real-time data and clean UI.",
-  ImgSrc: CurrImg,
-  codeLink: 'https://github.com/Amlan029/Currency-converter',
-  demoLink: 'https://currency-converter-mine.netlify.app/' 
-},
-{
-  title: "Wellness Hub",
-  description: "A doctor appointment booking web app built with the MERN stack. Users can find doctors by specialty and schedule appointments through a secure interface.",
-  ImgSrc: DA,
-  codeLink: 'https://github.com/Amlan029/WELLNESSHUB',
-  demoLink: 'https://well-ness-hub.netlify.app/' 
-},
-{
-  title: "Feed Formly",
-  description: "FeedFormly is a modern Next.js platform that lets users send and receive anonymous messages securely. Share your profile link, get honest feedback, and connect with others — all while keeping your identity private.",
-  ImgSrc: FF,
-  codeLink: 'https://github.com/Amlan029/FeedFormly',
-  demoLink: 'https://feed-formly-ehrg.vercel.app/' 
-},
-{
-  title: "Content Morpher",
-  description: "Built an AI-driven content generator (Content Morpher) that converts user key points into long-form content using Gemini. Implemented subscription billing (Razorpay), authentication (Clerk), dashboard analytics, and template-based generation workflows using Next.js, PostgreSQL, and Drizzle ORM.",
-  ImgSrc: Con_Mor,
-  codeLink: 'https://github.com/Amlan029/Content-Morpher',
-  demoLink: 'https://content-morpher.vercel.app/' 
-},
+  {
+    title: "Stone Paper Scissor Game",
+    description:
+      "A simple and fun game built using HTML5, CSS3, and JavaScript where the player competes with the computer in a classic Stone Paper Scissor match.",
+    ImgSrc: stonePaperScissor,
+    codeLink: "https://github.com/Amlan029/stonePaperScissors",
+    demoLink: "https://amlan029.github.io/stonePaperScissors/",
+    tech: ["HTML", "CSS", "JavaScript"]
+  },
+  {
+    title: "Currency Mine",
+    description:
+      "A front-end currency-converter app built with the React js. It allows users to get a particular currency value to another with real-time data and clean UI.",
+    ImgSrc: CurrImg,
+    codeLink: "https://github.com/Amlan029/Currency-converter",
+    demoLink: "https://currency-converter-mine.netlify.app/",
+    tech: ["React", "API", "Tailwind"]
+  },
+  {
+    title: "Wellness Hub",
+    description:
+      "A doctor appointment booking web app built with the MERN stack. Users can find doctors by specialty and schedule appointments through a secure interface.",
+    ImgSrc: DA,
+    codeLink: "https://github.com/Amlan029/WELLNESSHUB",
+    demoLink: "https://well-ness-hub.netlify.app/",
+    tech: ["MongoDB", "Express", "React", "Node"]
+  },
+  {
+    title: "Feed Formly",
+    description:
+      "FeedFormly is a modern Next.js platform that lets users send and receive anonymous messages securely.",
+    ImgSrc: FF,
+    codeLink: "https://github.com/Amlan029/FeedFormly",
+    demoLink: "https://feed-formly-ehrg.vercel.app/",
+    tech: ["Next.js", "Clerk", "PostgreSQL"]
+  },
+  {
+    title: "Content Morpher",
+    description:
+      "AI-driven content generator using Gemini with subscriptions, auth, analytics, and templates.",
+    ImgSrc: Con_Mor,
+    codeLink: "https://github.com/Amlan029/Content-Morpher",
+    demoLink: "https://content-morpher.vercel.app/",
+    tech: ["Next.js", "Gemini AI", "PostgreSQL", "Drizzle", "Razorpay"]
+  }
 ];
 const Projects = () => {
   return (
@@ -50,7 +60,7 @@ const Projects = () => {
           {
           projects.map((project,index)=>(
             <ProjectCard key={index} title={project.title} main={project.description}
-            ImgSrc={project.ImgSrc} CodeLink={project.codeLink} DemoLink={project.demoLink}/>
+            ImgSrc={project.ImgSrc} CodeLink={project.codeLink} DemoLink={project.demoLink} tech={project.tech}/>
           ))
           }
             
